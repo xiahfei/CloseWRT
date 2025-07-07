@@ -234,6 +234,8 @@ jobs:
           tag_name: ${{env.WRT_CONFIG}}-${{env.WRT_INFO}}-${{env.WRT_BRANCH}}-${{env.WRT_DATE}}
           files: ./wrt/upload/*.*
           body: |
+            感谢VIKINGYFY提供的编译源！
+            
             请注意选择你需要的设备固件！
 
             源码：${{env.WRT_REPO}}
