@@ -49,7 +49,7 @@ UPDATE_PACKAGE() {
 #UPDATE_PACKAGE "kucat" "sirpdboy/luci-theme-kucat" "js"
 #UPDATE_PACKAGE "design" "papagaye744/luci-theme-design" "js"
 #UPDATE_PACKAGE "neobird" "BootLoopLover/luci-theme-neobird" "master"
-UPDATE_PACKAGE "bootstrap" "emxiong/luci-theme-bootstrap" "master"
+UPDATE_PACKAGE "design" "papagaye744/luci-theme-design" "js"
 #UPDATE_PACKAGE "linkease" "linkease/nas-packages-luci/tree/main/luci/luci-app-linkease"
 UPDATE_PACKAGE "gecoosac" "lwb1978/openwrt-gecoosac" "main"
 #UPDATE_PACKAGE "qbittorrent" "sbwml/luci-app-qbittorrent" "master" "" "qt6base qt6tools rblibtorrent"
