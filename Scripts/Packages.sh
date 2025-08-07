@@ -46,7 +46,7 @@ UPDATE_PACKAGE() {
 
 # UPDATE_PACKAGE "包名" "项目地址" "项目分支" "pkg/name，可选，pkg为从大杂烩中单独提取包名插件；name为重命名为包名"
 #UPDATE_PACKAGE "argon" "jerrykuku/luci-theme-argon" "master"
-git_sparse_clone master https://github.com/coolsnowwolf/luci themes luci-theme-design
+git_sparse_clone "master" https://github.com/coolsnowwolf/luci themes luci-theme-design
 #UPDATE_PACKAGE "kucat" "sirpdboy/luci-theme-kucat" "js"
 #UPDATE_PACKAGE "design" "0x676e67/luci-theme-design" "js"
 #UPDATE_PACKAGE "neobird" "BootLoopLover/luci-theme-neobird" "master"
