@@ -52,7 +52,7 @@ UPDATE_PACKAGE "aurora" "eamonxg/luci-theme-aurora" "master"
 #UPDATE_PACKAGE "aurora-config" "eamonxg/luci-app-aurora-config" "master"
 #UPDATE_PACKAGE "kucat" "sirpdboy/luci-theme-kucat" "master"
 #UPDATE_PACKAGE "kucat-config" "sirpdboy/luci-app-kucat-config" "master"
-UPDATE_PACKAGE "gecoosac" "VIKINGYFY/packages/gecoosac" "main" "tree" "luci-app-gecoosac"
+#UPDATE_PACKAGE "gecoosac" "VIKINGYFY/packages/gecoosac" "main" "tree" "luci-app-gecoosac"
 #UPDATE_PACKAGE "linkease" "linkease/nas-packages-luci/luci" "main" "tree" "luci-app-linkease"
 
 #UPDATE_PACKAGE "homeproxy" "VIKINGYFY/homeproxy" "main"
@@ -77,7 +77,7 @@ UPDATE_PACKAGE "gecoosac" "VIKINGYFY/packages/gecoosac" "main" "tree" "luci-app-
 #UPDATE_PACKAGE "qmodem" "FUjr/QModem" "main"
 #UPDATE_PACKAGE "quickfile" "sbwml/luci-app-quickfile" "main"
 #UPDATE_PACKAGE "timecontrol" "sirpdboy/luci-app-timecontrol" "main"
-#UPDATE_PACKAGE "viking" "VIKINGYFY/packages" "main" "" "gecoosac luci-app-timewol luci-app-wolplus"
+UPDATE_PACKAGE "viking" "VIKINGYFY/packages" "main" "" "gecoosac"
 #UPDATE_PACKAGE "vnt" "lmq8267/luci-app-vnt" "main"
 
 #更新软件包版本
